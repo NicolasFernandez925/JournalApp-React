@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Journal app - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App de agenda hecha con react.
+Se implemento un login con autenticación con Facebook y Google utilizando Firebase como gestor de base de datos.
+Uso de hooks y Redux
+Sass, bootstrap
+
 
 ## Available Scripts
 

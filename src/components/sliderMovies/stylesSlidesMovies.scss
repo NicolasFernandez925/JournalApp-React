@@ -1,0 +1,50 @@
+.awssld {
+
+    height: 400px;
+    .awssld__content > img{
+        opacity: 0.5;
+    }
+
+}
+
+.aws-btn {
+    --loader-bar-color: #bd0069;
+    --loader-bar-height: 5px;
+    }
+
+.slider__info-content {
+    position: relative;
+    padding: 0px 20px;
+    text-align: center;
+  
+    h2{
+        font-size: 42px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #fff;
+    }
+    p{
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+        width: 700px;
+    }
+    .slider__button{
+            font-size: 15px;
+            background-color: transparent;
+            border: 1px solid rgb(75, 75, 75);
+            padding: 8px 20px;
+            margin-top: 30px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: 400ms ease;
+            display: inline-block;
+            color: white;
+    }
+    .slider__button:focus{
+            outline: none;
+    }
+  
+        
+      
+}

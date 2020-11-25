@@ -1,0 +1,35 @@
+.movie__catalog {
+    display: flex!important;
+    justify-content: center !important;
+    margin-top: 25px;
+    
+
+    .ant-card-cover {
+        img {
+            height: 270px !important;
+        }
+    }
+    .ant-card{
+        width: 170px!important;
+    }
+
+    .ant-card-meta-title {
+        text-align: center !important;
+        width: 100px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+@media (max-width:600px){
+
+    .ant-card.ant-card-bordered.ant-card-hoverable {
+        width: 300px!important;
+        margin: 0 auto;
+    }
+    .ant-card-meta-title {
+        width: 100%!important;
+    }
+}
